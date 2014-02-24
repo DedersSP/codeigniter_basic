@@ -15,7 +15,7 @@ class Crud extends CI_Controller{
         
         $dados = array(
             'titulo'=>'CRUD com Codeigniter',
-            'tela'=>''
+            'tela'=>'home'
         );
         $this->load->view('crud',$dados);
     }
